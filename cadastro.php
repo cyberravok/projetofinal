@@ -15,8 +15,9 @@ $codigo_area = $_POST['codigo de área'];
 $cep = $_POST['cep'];
 $senha = md5($senha = $_POST['senha']);
 $status = $_POST['status'];
+
 // Executa a conexao com o mysql e selecionar a base
-  include_once('config.php');
+  
 
 
 //montar a query sql de gravação recebendo as variaveis via post
